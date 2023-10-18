@@ -5,18 +5,36 @@ file_version: 1.1.3
 app_version: 1.18.13
 ---
 
-Will ping the `healthcheck`<swm-token data-swm-token="Z2l0aHViJTNBJTNBc3dpbW0tZGVtby1zZXJ2ZXIxJTNBJTNBcm9zcy1naWRlb24tYXN1cmlvbg==:routes/initRoutes.js:4:6:6:`router.get(&quot;/healthcheck&quot;, async (req, res) =&gt; {`"/> route on API-1 from<br/>
-<br/>Current dependency on API-1 is below
+Will ping the `healthcheck`<swm-token data-swm-token="Z2l0aHViJTNBJTNBc3dpbW0tZGVtby1zZXJ2ZXIxJTNBJTNBcm9zcy1naWRlb24tYXN1cmlvbg==:routes/initRoutes.js:4:6:6:`router.get(&quot;/healthcheck&quot;, async (req, res) =&gt; {`"/> route on API-1 from
+
+<br/>
+
+
+<!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
+### 📄 app.js
+```javascript
+14      app.use('/api/sample',routes)
+```
+
+<br/>
+
+<br/><br/>Current dependency on API-1 is below
 
 <br/>
 
 When this version is changed in code, we will be notified to check this documentation - additionally, their will be markers within developers code editors pointing to this documentation to show who the API consumers may be
+
+"version": "1.0.1",
 <!-- NOTE-swimm-snippet: the lines below link your snippet to Swimm -->
 <!-- NOTE-swimm-repo ::Z2l0aHViJTNBJTNBc3dpbW0tZGVtby1zZXJ2ZXIxJTNBJTNBcm9zcy1naWRlb24tYXN1cmlvbg==:: -->
 ### 📄 package.json
 ```json
-3        "version": "1.0.0",
+3        "version": "1.0.1",
 ```
+
+<br/>
+
+<br/>
 
 <br/>
 
