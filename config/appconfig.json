@@ -1,0 +1,56 @@
+{
+    "executionContext": {
+      "system": "sbx",
+      "subsystem": "operations",
+      "capability": "servicejobmanagement",
+      "resource": "sjlist"
+    },
+    "bootstrapConfig": {
+      "dbtype": [
+        "oracle"
+      ],
+      "modules": [
+        "voltage",
+        "express"
+      ],
+      "configurationProvider": [
+        "inMemoryCache"
+      ]
+    },
+    "useALS": "true",
+    "apiSsmParameterNames": {
+      "global": [
+        "new.tetmappuser.retailers",
+        "new.teverizonappuser.retailers",
+        "new.teattappuser.retailers",
+        "new.tesprintappuser.retailers",
+        "voltage.keySpec.rtm.fpe",
+        "standardSecureFields",
+        "database.sbv5oracledb.connectString",
+        "database.sbv5oracledb.user",
+        "database.sbv5oracledb.password",
+        "database.sbv5oracledb.poolMin",
+        "database.sbv5oracledb.poolMax",
+        "database.sbv5oracledb.poolIncrement",
+        "voltage.url",
+        "voltage.serviceUser",
+        "voltage.servicePassword",
+        "expressserver.port",
+        "expressserver.protocol",
+        "expressserver.keyFile",
+        "expressserver.certFile"
+      ],
+      "subsystem": [],
+      "capability": [
+        "sjlist.serviceJobDate.allowedRange",
+        "sjlist.scheduledDate.allowedRange",
+        "sjlist.statusChange.allowedRange",
+        "sjlist.v5.scheduledDate.allowedRange",
+        "sjlist.v5.serviceJobDate.allowedRange",
+        "sjlist.v5.partETADate.allowedRange"
+      ],
+      "resource": [
+        "database.sbv5oracledb.poolMax"
+      ]
+    }
+  }
